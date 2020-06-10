@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import PopChart from './components/PopChart';
+import PieChart from './components/PieChart';
 
 function App() {
   return (
     <div className="App">
-      <PopChart/>
+      <PieChart/>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Chart from "react-apexcharts";
+import "typeface-pt-sans"
 
 class PopChart extends Component {
   constructor(props) {
@@ -18,11 +19,11 @@ class PopChart extends Component {
           radialBar: {
             dataLabels: {
               name: {
-                fontSize: "22px",
+                fontSize: "35px",
                 color: "#FFFFFF",
               },
               value: {
-                fontSize: "16px",
+                fontSize: "24px",
                 color: "#FFFFFF",
               },
               total: {
